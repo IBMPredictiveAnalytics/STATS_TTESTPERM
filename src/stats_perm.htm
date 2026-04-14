@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+
+  <title>Permutation t Tests</title>
+  <style type="text/css">
+
+  <!-- 
+
+  H1 {font-weight:bold; color:#006699; font-size:125%; }
+  H2 {font-weight:bold; color:#006699; font-size:110%; }
+  TABLE {font-size:100%;}
+
+  /* paragraph tags */
+  .step {text-indent: -1.3em; margin-left:1.3em; margin-top: 0px;}
+  .menuselection {margin-left:10px}
+  .bullet {list-style-type: disc;margin-top:12px; margin-left:36px; text-indent:-1em; }
+  .codeblock {background-color: #ffffe6; display:block; margin-left:5px; padding:5px;}
+
+  /* inline tags */
+  .screen {font-weight:bold; color:#408080}                       /*** used refer to on-screen text ***/
+  .name {font-style: italic}                                                       /*** used to tag names, such as variable names, file names, and so forth ***/
+  .runinhead {font-weight: bold} 
+  .superscript {vertical-align:super; font-size:80%}
+  .subscript {vertical-align:sub; font-size:80%}
+
+
+  --> 
+  </style>
+</head>
+<h2>Introduction</h2>
+<p>This extension procedure provides permutation t tests of equality of means for one variable and two groups or two variables and one group.
+The test does not assume a normal distribution for the data, and it can do an unequal variance
+(Welch) test, which is the default, or an equal-variance test.
+For general information on permutation tests, see the reference below.
+
+<p>
+This procedure does not support case weights. They will be ignored with a warning.
+Cases with missing data will be excluded listwise.  The tested variables must have
+a scale (continuous) measurement level, and the group definition variable must
+have a nominal or ordinal level.
+The dialog box generates syntax for the STATS PERMTTEST extension command.
+</p>
+
+<p>The output includes the standard, i.e., nonpermutation, t test information that
+will match the standard t test procedure in the two-group case.  Since the two-group
+case is also covered in the Regression > Permutation Tests procedure when 
+the variance assumption is set to equal, those results should be close,
+but since permutation tests have some randomness due to the sampling,
+the reaults are unlikel to be exactly equal.  In fact, if you run this
+procedure multiple times, the output will vary slightly from run to run.
+
+<h2>Main Tab</h2>
+<p><b>Permutation Test Type</b> Choose whether to do a two-group or
+two variable test.
+
+<p><b>First Test Variable</b> For either type, select a scale variable.
+<p><b>Second Test Variable</b> For a two-variable test, select another scale variable.
+<p><b>Grouping Variable</b> For a two group test, specify a categorical group variable.
+<p><b>Group1</b> and <b>Group2</b> Specify the two values that define the groups.
+If the variable is a string, enclose the values in quotes.
+
+<h2>Options Tab</h2
+
+<p><b>Variance Assumption</b> Specify whether to do an unequal variance (Welch) test
+or an equal variance test.
+
+<p><b>Alternative Hypothesis</b> Choose whether to a two-sided, one greater than two,
+or one less than two test.  For the two variable case, "greater" means that the first
+variable mean is greater than the second variable.  For the two group case,
+the group with the smaller mean is considered to be the first.
+<p><b>Number of Permutations</b> Choose the number of permutations.
+Larger numbers mean greater accuracy but more execution time.
+<p><b>Q-Q Plot</b>  Check this box to include a Q-Q plot of the two variables or two groups.
+This is helpful beyond the t test in determining whether the two distributions are
+the same.  If they are identical, the points would form a straight line
+on the diagonal.
+<h2>Split Files</h2>
+This procedure supports split files.  Any splits that are too small or, for
+the two-group test, where only one group appears, are automatically excluded
+with a warning message.  If there are many splits, the Organize Output by Groups
+setting in the Split Files dialog will produce more readable output.
+
+<h2>Acknowledgements</h2>
+This procedure uses the R MKinfer package from CRAN.
+<h2>References</h2>
+
+<p><a href="https://en.wikipedia.org/wiki/Permutation_test">Wikipedia Permutation Tests</a>
+
+</body>
+  <p style="font-size:80%;">
+&copy; Copyright Jon K Peck 2026</p>
+</html>

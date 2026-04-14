@@ -1,0 +1,242 @@
+# /***********************************************************************
+# * Licensed Materials - Property of IBM
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2026
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp.
+# ************************************************************************/
+msgid ""
+msgstr ""
+"Project-Id-Version: STATS_PERMTTEST 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-25 12:27+0530\n"
+"PO-Revision-Date: 2026-03-25 12:27+0530\n"
+"Last-Translator: Your Name <your.email@example.com>\n"
+"Language-Team: ko <ko@example.com>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: STATS_PERMTTEST.R:94
+msgid "End of procedure"
+msgstr "프로시저 끝"
+
+#: STATS_PERMTTEST.R:124
+msgid "Message Number"
+msgstr "메시지 번호"
+
+#: STATS_PERMTTEST.R:159
+#, c-format
+msgid "Invalid variable name: %s"
+msgstr "잘못된 변수 이름: %s"
+
+#: STATS_PERMTTEST.R:166
+msgid "Perm"
+msgstr "Perm"
+
+#: STATS_PERMTTEST.R:167
+msgid "Perm t Test Notes and Warnings"
+msgstr "순열 검정 참고사항 및 경고"
+
+#: STATS_PERMTTEST.R:188
+msgid "Permutation t Test"
+msgstr "순열 t 검정"
+
+#: STATS_PERMTTEST.R:191
+msgid "This procedure requires SPSS to be in Unicode mode"
+msgstr "이 프로시저를 수행하려면 SPSS가 유니코드 모드여야 합니다."
+
+#: STATS_PERMTTEST.R:196
+msgid "Variable specification is incorrect"
+msgstr "변수 지정 사항이 올바르지 않음"
+
+#: STATS_PERMTTEST.R:199
+msgid "Case weights are ignored by this procedure"
+msgstr "이 프로시저에서는 대/소문자 가중치가 무시됩니다."
+
+#: STATS_PERMTTEST.R:203
+msgid "Two variables are required for paired tests"
+msgstr "쌍을 이룬 검정을 위해서는 두 개의 변수가 필요합니다."
+
+#: STATS_PERMTTEST.R:206
+msgid "The group variable is not used for paired tests and will be ignored"
+msgstr "집단변수는 쌍을 이룬 검정에는 사용되지 않으며 무시됩니다."
+
+#: STATS_PERMTTEST.R:211
+msgid "The group variable is required for this test"
+msgstr "이 검정을 진행하려면 집단변수가 필요합니다."
+
+#: STATS_PERMTTEST.R:214
+msgid "Exactly two values must be supplied for the group specification"
+msgstr "그룹 사양에는 정확히 두 개의 값을 제공해야 합니다."
+
+#: STATS_PERMTTEST.R:218
+msgid "The group variable must have a nominal or ordinal measurement level."
+msgstr "집단변수는 명목 또는 순서 측정 수준으로 측정되어야 합니다."
+
+#: STATS_PERMTTEST.R:230
+#, c-format
+msgid ""
+"%s is not a valid variable name in R.  Please rename it to use this "
+"procedure."
+msgstr "%s은(는) R에서 유효한 변수 이름이 아닙니다.  이 프로시저를 사용하려면 이름을 변경하십시오."
+
+#: STATS_PERMTTEST.R:248
+msgid "error fetching data"
+msgstr "데이터 페치 중 오류 발생"
+
+#: STATS_PERMTTEST.R:259
+#, c-format
+msgid ""
+"There are no complete or eligible cases in the dataset or split number %s ."
+"  Skipping"
+msgstr "데이터 세트 또는 분할 번호 %s에 완전하거나 적합한 사례가 없습니다.  건너뛰기"
+
+#: STATS_PERMTTEST.R:264
+#, c-format
+msgid ""
+"There are too few cases in a group in the dataset or split number %s.  "
+"Skipping"
+msgstr "데이터 세트 내 그룹의 사례 수가 너무 적거나, 분할 수가 %s입니다.  건너뛰기"
+
+#: STATS_PERMTTEST.R:290 STATS_PERMTTEST.R:293
+msgid "error estimating equation"
+msgstr "방정식 추정 중 오류 발생"
+
+#: STATS_PERMTTEST.R:364
+msgid "First Paired Variable"
+msgstr "첫 번째 쌍을 이루는 변수"
+
+#: STATS_PERMTTEST.R:365
+msgid "Second Paired Variable"
+msgstr "두 번째 쌍을 이루는 변수"
+
+#: STATS_PERMTTEST.R:367
+msgid "Test Variable"
+msgstr "검정 변수"
+
+#: STATS_PERMTTEST.R:368
+msgid "Group Variable"
+msgstr "그룹 변수"
+
+#: STATS_PERMTTEST.R:369
+msgid "First Group"
+msgstr "첫 번째 그룹"
+
+#: STATS_PERMTTEST.R:370
+msgid "Second Group"
+msgstr "두 번째 그룹"
+
+#: STATS_PERMTTEST.R:372
+msgid "Alternative Hypothesis"
+msgstr "대체 가설"
+
+#: STATS_PERMTTEST.R:373
+msgid "Equal Variance Assumed"
+msgstr "분산이 동일하다고 가정함"
+
+#: STATS_PERMTTEST.R:373
+msgid "Yes"
+msgstr "예"
+
+#: STATS_PERMTTEST.R:373
+msgid "No"
+msgstr "아니오"
+
+#: STATS_PERMTTEST.R:374
+msgid "Number of Permutations"
+msgstr "순열의 수"
+
+#: STATS_PERMTTEST.R:375
+msgid "Settings"
+msgstr "설정"
+
+#: STATS_PERMTTEST.R:376
+msgid "Results computed by module MKinfer"
+msgstr "MKinfer 모듈에 의해 산출된 결과"
+
+#: STATS_PERMTTEST.R:384
+msgid "t Test Settings"
+msgstr "t-검정 설정"
+
+#: STATS_PERMTTEST.R:392
+msgid "Number of Cases"
+msgstr "케이스 수"
+
+#: STATS_PERMTTEST.R:393
+msgid "t Statistic"
+msgstr "t 통계량"
+
+#: STATS_PERMTTEST.R:394
+msgid "Degrees of Freedom"
+msgstr "자유도"
+
+#: STATS_PERMTTEST.R:395
+msgid "P Value"
+msgstr "P 값"
+
+#: STATS_PERMTTEST.R:397
+msgid "Estimated Mean Difference"
+msgstr "추정 평균 차이"
+
+#: STATS_PERMTTEST.R:400
+msgid "Estimated Mean: Group 1"
+msgstr "추정 평균: 그룹 1"
+
+#: STATS_PERMTTEST.R:401
+msgid "Estimated Mean: Group 2"
+msgstr "추정 평균: 그룹 2"
+
+#: STATS_PERMTTEST.R:403
+msgid "Lower Difference Confidence Interval"
+msgstr "하위 차이 신뢰구간"
+
+#: STATS_PERMTTEST.R:404
+msgid "Upper Difference Confifdence Interval"
+msgstr "상위 차이 신뢰구간"
+
+#: STATS_PERMTTEST.R:405
+msgid "Permutation P Value"
+msgstr "순열 P 값"
+
+#: STATS_PERMTTEST.R:406
+msgid "Permutation Estimated Mean Difference"
+msgstr "순열 추정 평균 차이"
+
+#: STATS_PERMTTEST.R:407
+msgid "Lower Permutation Confidence Interval"
+msgstr "하위 순열 신뢰구간"
+
+#: STATS_PERMTTEST.R:408
+msgid "Upper Permutation Confidence Interval"
+msgstr "상위 순열 신뢰구간"
+
+#: STATS_PERMTTEST.R:409
+msgid "Standardized Permutation Effect Size"
+msgstr "표준화된 순열 효과 크기"
+
+#: STATS_PERMTTEST.R:412
+msgid "Statistics"
+msgstr "통계"
+
+#: STATS_PERMTTEST.R:415
+msgid "Permutation t Tests"
+msgstr "순열 t-검정"
+
+#: STATS_PERMTTEST.R:431 STATS_PERMTTEST.R:433
+#, c-format
+msgid " (%s)"
+msgstr " (%s)"
+
+#: STATS_PERMTTEST.R:435
+msgid "Two Group Q-Q Plot"
+msgstr "두 개의 집단 Q-Q 도표"
+
+#: STATS_PERMTTEST.R:441
+msgid "Q-Q Plot"
+msgstr "Q-Q 도표"

@@ -1,0 +1,242 @@
+# /***********************************************************************
+# * Licensed Materials - Property of IBM
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2026
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp.
+# ************************************************************************/
+msgid ""
+msgstr ""
+"Project-Id-Version: STATS_PERMTTEST 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-25 12:27+0530\n"
+"PO-Revision-Date: 2026-03-25 12:27+0530\n"
+"Last-Translator: Your Name <your.email@example.com>\n"
+"Language-Team: zh_TW <zh_TW@example.com>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: STATS_PERMTTEST.R:94
+msgid "End of procedure"
+msgstr "程序的結尾"
+
+#: STATS_PERMTTEST.R:124
+msgid "Message Number"
+msgstr "訊息號碼"
+
+#: STATS_PERMTTEST.R:159
+#, c-format
+msgid "Invalid variable name: %s"
+msgstr "變數名稱無效：%s"
+
+#: STATS_PERMTTEST.R:166
+msgid "Perm"
+msgstr "永久性"
+
+#: STATS_PERMTTEST.R:167
+msgid "Perm t Test Notes and Warnings"
+msgstr "排列 t 檢定注意事項與警告"
+
+#: STATS_PERMTTEST.R:188
+msgid "Permutation t Test"
+msgstr "排列 t 檢定"
+
+#: STATS_PERMTTEST.R:191
+msgid "This procedure requires SPSS to be in Unicode mode"
+msgstr "此程序需要 SPSS 處於 Unicode 模式"
+
+#: STATS_PERMTTEST.R:196
+msgid "Variable specification is incorrect"
+msgstr "變數規格不正確"
+
+#: STATS_PERMTTEST.R:199
+msgid "Case weights are ignored by this procedure"
+msgstr "此程序會忽略案例權重"
+
+#: STATS_PERMTTEST.R:203
+msgid "Two variables are required for paired tests"
+msgstr "成對檢定需要兩個變數"
+
+#: STATS_PERMTTEST.R:206
+msgid "The group variable is not used for paired tests and will be ignored"
+msgstr "群組變數不適用於配對檢定，將會被忽略"
+
+#: STATS_PERMTTEST.R:211
+msgid "The group variable is required for this test"
+msgstr "此測試需要群組變數"
+
+#: STATS_PERMTTEST.R:214
+msgid "Exactly two values must be supplied for the group specification"
+msgstr "群組規格必須提供正好兩個值"
+
+#: STATS_PERMTTEST.R:218
+msgid "The group variable must have a nominal or ordinal measurement level."
+msgstr "群組變數的測量層次必須是名義層次或序數層次。"
+
+#: STATS_PERMTTEST.R:230
+#, c-format
+msgid ""
+"%s is not a valid variable name in R.  Please rename it to use this "
+"procedure."
+msgstr "%s 在 R 中不是有效的變數名稱。  請將其重新命名，以便使用此程序。"
+
+#: STATS_PERMTTEST.R:248
+msgid "error fetching data"
+msgstr "提取資料時發生錯誤"
+
+#: STATS_PERMTTEST.R:259
+#, c-format
+msgid ""
+"There are no complete or eligible cases in the dataset or split number %s ."
+"  Skipping"
+msgstr "資料集或第 %s 分割中沒有完整或符合資格的案例。  正在跳過"
+
+#: STATS_PERMTTEST.R:264
+#, c-format
+msgid ""
+"There are too few cases in a group in the dataset or split number %s.  "
+"Skipping"
+msgstr "資料集中或第 %s 分割中，群組的案例數量過少。  正在跳過"
+
+#: STATS_PERMTTEST.R:290 STATS_PERMTTEST.R:293
+msgid "error estimating equation"
+msgstr "預估方程式時發生錯誤"
+
+#: STATS_PERMTTEST.R:364
+msgid "First Paired Variable"
+msgstr "第一個配對變數"
+
+#: STATS_PERMTTEST.R:365
+msgid "Second Paired Variable"
+msgstr "第二個配對變數"
+
+#: STATS_PERMTTEST.R:367
+msgid "Test Variable"
+msgstr "檢定變數"
+
+#: STATS_PERMTTEST.R:368
+msgid "Group Variable"
+msgstr "群組變數"
+
+#: STATS_PERMTTEST.R:369
+msgid "First Group"
+msgstr "第一個群組"
+
+#: STATS_PERMTTEST.R:370
+msgid "Second Group"
+msgstr "第二個群組"
+
+#: STATS_PERMTTEST.R:372
+msgid "Alternative Hypothesis"
+msgstr "替代假設"
+
+#: STATS_PERMTTEST.R:373
+msgid "Equal Variance Assumed"
+msgstr "假設變異數相等"
+
+#: STATS_PERMTTEST.R:373
+msgid "Yes"
+msgstr "True"
+
+#: STATS_PERMTTEST.R:373
+msgid "No"
+msgstr "否"
+
+#: STATS_PERMTTEST.R:374
+msgid "Number of Permutations"
+msgstr "排列數"
+
+#: STATS_PERMTTEST.R:375
+msgid "Settings"
+msgstr "設定"
+
+#: STATS_PERMTTEST.R:376
+msgid "Results computed by module MKinfer"
+msgstr "由模組 MKinfer 計算的結果"
+
+#: STATS_PERMTTEST.R:384
+msgid "t Test Settings"
+msgstr "t 檢定設定"
+
+#: STATS_PERMTTEST.R:392
+msgid "Number of Cases"
+msgstr "個案數目"
+
+#: STATS_PERMTTEST.R:393
+msgid "t Statistic"
+msgstr "t 統計量"
+
+#: STATS_PERMTTEST.R:394
+msgid "Degrees of Freedom"
+msgstr "自由度"
+
+#: STATS_PERMTTEST.R:395
+msgid "P Value"
+msgstr "P 值"
+
+#: STATS_PERMTTEST.R:397
+msgid "Estimated Mean Difference"
+msgstr "估計平均數差異"
+
+#: STATS_PERMTTEST.R:400
+msgid "Estimated Mean: Group 1"
+msgstr "估計平均數：第 1 組"
+
+#: STATS_PERMTTEST.R:401
+msgid "Estimated Mean: Group 2"
+msgstr "估計平均數：第 2 組"
+
+#: STATS_PERMTTEST.R:403
+msgid "Lower Difference Confidence Interval"
+msgstr "差異信賴區間下限"
+
+#: STATS_PERMTTEST.R:404
+msgid "Upper Difference Confifdence Interval"
+msgstr "差異信賴區間上限"
+
+#: STATS_PERMTTEST.R:405
+msgid "Permutation P Value"
+msgstr "排列 P 值"
+
+#: STATS_PERMTTEST.R:406
+msgid "Permutation Estimated Mean Difference"
+msgstr "排列估計平均數差異"
+
+#: STATS_PERMTTEST.R:407
+msgid "Lower Permutation Confidence Interval"
+msgstr "排列檢定信賴區間下限"
+
+#: STATS_PERMTTEST.R:408
+msgid "Upper Permutation Confidence Interval"
+msgstr "排列檢定信賴區間上限"
+
+#: STATS_PERMTTEST.R:409
+msgid "Standardized Permutation Effect Size"
+msgstr "標準化排列效應大小"
+
+#: STATS_PERMTTEST.R:412
+msgid "Statistics"
+msgstr "統計資料"
+
+#: STATS_PERMTTEST.R:415
+msgid "Permutation t Tests"
+msgstr "排列 t 檢定"
+
+#: STATS_PERMTTEST.R:431 STATS_PERMTTEST.R:433
+#, c-format
+msgid " (%s)"
+msgstr " (%s)"
+
+#: STATS_PERMTTEST.R:435
+msgid "Two Group Q-Q Plot"
+msgstr "兩組 Q-Q 圖"
+
+#: STATS_PERMTTEST.R:441
+msgid "Q-Q Plot"
+msgstr "Q-Q 圖"

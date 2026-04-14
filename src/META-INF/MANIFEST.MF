@@ -1,0 +1,21 @@
+Name: STATS_TTESTPERM
+Display-Name: Independent Samples Permutation t Test
+Dialog-Specs: dialog392.cfe
+Command-Specs: STATS_TTESTPERM.XML
+Code-Files: STATS_TTESTPERM.R
+Misc-Files: extsyntax.css,LICENSE,markdown.html,stats_perm.htm
+Summary: Two Group and Two Samples Independent Permutation t Tests [Windows Only]
+Description: This procedure does permutation t tests.  It allows for t
+ wo groups and one variable or two variables in one groiup.  Variance 
+ can be assumed equal or not (Welch).  Two-sided or one-sided alternat
+ ive hypotheses can be specified.  It's functionality overlaps with th
+ e STATS PERM extension command, but it has some additional options fo
+ r these tests.
+Author: Jon K Peck
+Version: 1.0.0
+Product-Version: 28
+Date: 3/5/2026
+Categories: permutation tests
+Plugins: R
+R-Packages: arrangements
+Translation-Catalogues: lang
