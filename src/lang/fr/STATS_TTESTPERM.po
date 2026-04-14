@@ -1,0 +1,252 @@
+# /***********************************************************************
+# * Licensed Materials - Property of IBM
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2026
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp.
+# ************************************************************************/
+msgid ""
+msgstr ""
+"Project-Id-Version: STATS_PERMTEST 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-25 12:27+0530\n"
+"PO-Revision-Date: 2026-03-25 12:27+0530\n"
+"Last-Translator: Your Name <your.email@example.com>\n"
+"Language-Team: fr <fr@example.com>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: STATS_PERMTTEST.R:94
+msgid "End of procedure"
+msgstr "Fin de la procédure"
+
+#: STATS_PERMTTEST.R:124
+msgid "Message Number"
+msgstr "Numéro de message"
+
+#: STATS_PERMTTEST.R:159
+#, c-format
+msgid "Invalid variable name: %s"
+msgstr "Nom de variable non valide : %s"
+
+#: STATS_PERMTTEST.R:166
+msgid "Perm"
+msgstr "Permutation"
+
+#: STATS_PERMTTEST.R:167
+msgid "Perm t Test Notes and Warnings"
+msgstr "Notes et avertissements relatifs au test perm t"
+
+#: STATS_PERMTTEST.R:188
+msgid "Permutation t Test"
+msgstr "Test t de permutation"
+
+#: STATS_PERMTTEST.R:191
+msgid "This procedure requires SPSS to be in Unicode mode"
+msgstr "Cette procédure nécessite que SPSS soit en mode Unicode"
+
+#: STATS_PERMTTEST.R:196
+msgid "Variable specification is incorrect"
+msgstr "La spécification de la variable est incorrecte."
+
+#: STATS_PERMTTEST.R:199
+msgid "Case weights are ignored by this procedure"
+msgstr "Les pondérations de cas sont ignorées par cette procédure"
+
+#: STATS_PERMTTEST.R:203
+msgid "Two variables are required for paired tests"
+msgstr "Deux variables sont nécessaires pour les tests appariés."
+
+#: STATS_PERMTTEST.R:206
+msgid "The group variable is not used for paired tests and will be ignored"
+msgstr ""
+"La variable de groupe n'est pas utilisée pour les tests appariés et sera "
+"ignorée."
+
+#: STATS_PERMTTEST.R:211
+msgid "The group variable is required for this test"
+msgstr "La variable de groupe est requise pour ce test."
+
+#: STATS_PERMTTEST.R:214
+msgid "Exactly two values must be supplied for the group specification"
+msgstr ""
+"Il faut fournir exactement deux valeurs pour la spécification du groupe."
+
+#: STATS_PERMTTEST.R:218
+msgid "The group variable must have a nominal or ordinal measurement level."
+msgstr ""
+"La variable de groupe doit avoir un niveau de mesure nominal ou ordinal."
+
+#: STATS_PERMTTEST.R:230
+#, c-format
+msgid ""
+"%s is not a valid variable name in R.  Please rename it to use this "
+"procedure."
+msgstr ""
+"%s n'est pas un nom de variable valide dans R.  Veuillez le renommer, afin "
+"de pouvoir suivre cette procédure."
+
+#: STATS_PERMTTEST.R:248
+msgid "error fetching data"
+msgstr "erreur lors de l'extraction des données"
+
+#: STATS_PERMTTEST.R:259
+#, c-format
+msgid ""
+"There are no complete or eligible cases in the dataset or split number %s ."
+"  Skipping"
+msgstr ""
+"Il n'existe aucun cas complet ou éligible dans l'ensemble de données ou dans"
+" le numéro de partition %s.  Ignoré"
+
+#: STATS_PERMTTEST.R:264
+#, c-format
+msgid ""
+"There are too few cases in a group in the dataset or split number %s.  "
+"Skipping"
+msgstr ""
+"Trop peu de cas dans un groupe de l'ensemble de données ou du numéro de "
+"division %s.  Ignoré"
+
+#: STATS_PERMTTEST.R:290 STATS_PERMTTEST.R:293
+msgid "error estimating equation"
+msgstr "erreur lors de l'estimation de l'équation"
+
+#: STATS_PERMTTEST.R:364
+msgid "First Paired Variable"
+msgstr "Première variable appariée"
+
+#: STATS_PERMTTEST.R:365
+msgid "Second Paired Variable"
+msgstr "Deuxième variable appariée"
+
+#: STATS_PERMTTEST.R:367
+msgid "Test Variable"
+msgstr "Variable à tester"
+
+#: STATS_PERMTTEST.R:368
+msgid "Group Variable"
+msgstr "Variable de groupe"
+
+#: STATS_PERMTTEST.R:369
+msgid "First Group"
+msgstr "Premier groupe"
+
+#: STATS_PERMTTEST.R:370
+msgid "Second Group"
+msgstr "Deuxième groupe"
+
+#: STATS_PERMTTEST.R:372
+msgid "Alternative Hypothesis"
+msgstr "Hypothèse alternative"
+
+#: STATS_PERMTTEST.R:373
+msgid "Equal Variance Assumed"
+msgstr "Hypothèse de variance égale"
+
+#: STATS_PERMTTEST.R:373
+msgid "Yes"
+msgstr "Oui"
+
+#: STATS_PERMTTEST.R:373
+msgid "No"
+msgstr "Non"
+
+#: STATS_PERMTTEST.R:374
+msgid "Number of Permutations"
+msgstr "Nombre de permutations"
+
+#: STATS_PERMTTEST.R:375
+msgid "Settings"
+msgstr "Paramètres"
+
+#: STATS_PERMTTEST.R:376
+msgid "Results computed by module MKinfer"
+msgstr "Résultats calculés par le module MKinfer"
+
+#: STATS_PERMTTEST.R:384
+msgid "t Test Settings"
+msgstr "Paramètres de test t"
+
+#: STATS_PERMTTEST.R:392
+msgid "Number of Cases"
+msgstr "Nombre d'observations"
+
+#: STATS_PERMTTEST.R:393
+msgid "t Statistic"
+msgstr "Statistiques t"
+
+#: STATS_PERMTTEST.R:394
+msgid "Degrees of Freedom"
+msgstr "Degrés de liberté"
+
+#: STATS_PERMTTEST.R:395
+msgid "P Value"
+msgstr "Valeur P"
+
+#: STATS_PERMTTEST.R:397
+msgid "Estimated Mean Difference"
+msgstr "Différence moyenne estimée"
+
+#: STATS_PERMTTEST.R:400
+msgid "Estimated Mean: Group 1"
+msgstr "Moyenne estimée : Groupe 1"
+
+#: STATS_PERMTTEST.R:401
+msgid "Estimated Mean: Group 2"
+msgstr "Moyenne estimée : Groupe 2"
+
+#: STATS_PERMTTEST.R:403
+msgid "Lower Difference Confidence Interval"
+msgstr "Limite inférieure de l'intervalle de confiance pour la différence"
+
+#: STATS_PERMTTEST.R:404
+msgid "Upper Difference Confifdence Interval"
+msgstr "Limite supérieure de l'intervalle de confiance pour la différence"
+
+#: STATS_PERMTTEST.R:405
+msgid "Permutation P Value"
+msgstr "Valeur p de permutation"
+
+#: STATS_PERMTTEST.R:406
+msgid "Permutation Estimated Mean Difference"
+msgstr "Différence moyenne estimée par permutation"
+
+#: STATS_PERMTTEST.R:407
+msgid "Lower Permutation Confidence Interval"
+msgstr "Intervalle de confiance inférieur par permutation"
+
+#: STATS_PERMTTEST.R:408
+msgid "Upper Permutation Confidence Interval"
+msgstr "Intervalle de confiance supérieur par permutation"
+
+#: STATS_PERMTTEST.R:409
+msgid "Standardized Permutation Effect Size"
+msgstr "Taille standardisée de l'effet par permutation"
+
+#: STATS_PERMTTEST.R:412
+msgid "Statistics"
+msgstr "Statistiques"
+
+#: STATS_PERMTTEST.R:415
+msgid "Permutation t Tests"
+msgstr "Tests t de permutation"
+
+#: STATS_PERMTTEST.R:431 STATS_PERMTTEST.R:433
+#, c-format
+msgid " (%s)"
+msgstr " (%s)"
+
+#: STATS_PERMTTEST.R:435
+msgid "Two Group Q-Q Plot"
+msgstr "Diagramme Q-Q pour deux groupes"
+
+#: STATS_PERMTTEST.R:441
+msgid "Q-Q Plot"
+msgstr "Tracé Q-Q"
