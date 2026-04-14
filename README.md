@@ -1,2 +1,92 @@
-# STATS_TTESTPERM
-This extension procedure provides permutation t tests of equality of means for one variable and two groups or two variables and one group
+<body>
+<h1>STATS TTESTPERM Extension Command</h1>
+
+<h2>Introduction</h2>
+<p>This extension procedure provides permutation t tests of equality of means for one variable and two groups or two variables and one group.
+The test does not assume a normal distribution for the data, and it can do an unequal variance
+(Welch) test, which is the default, or an equal-variance test.
+For general information on permutation tests, see the reference below.
+
+<p>
+This procedure does not support case weights. They will be ignored with a warning.
+Cases with missing data will be excluded listwise.  The tested variables must have
+a scale (continuous) measurement level, and the group definition variable must
+have a nominal or ordinal level.
+The dialog box appears under Analyze > Compare Means and Proportions as 
+Two Group or Two Variable Permutation t Test.
+</p>
+
+<p>The output includes the standard, i.e., nonpermutation, t test information that
+will match the standard t test procedure in the two-group case.  Since the two-group
+case is also covered in the Regression > Permutation Tests procedure, STATS PERM, when 
+the variance assumption is set to equal, those results should be close,
+but since permutation tests have some randomness due to the sampling,
+the reaults are unlikel to be exactly equal.  In fact, if you run this
+procedure multiple times, the output will vary slightly from run to run.
+
+<p>This procedure supports split files.  Any splits that are too small or, for
+the two-group test, where only one group appears, are automatically excluded
+with a warning message.  If there are many splits, the Organize Output by Groups
+setting, SPLIT FILES SEPARATE, will produce more readable output.
+<H2>Syntax</h2>
+
+<div class="syntax">
+<p>STATS TTESTPERM</br>
+ PAIRED = NO<sup>&#42;&#42;</sup> or YES<br/>
+ VARIABLE1 = First Test Variable<sup>&#42;</sup> <br/>
+ VARIABLE2 = Second Test Variable <br/>
+ GROUPVAR = group variable <br/>
+ GROUPVALS = group definition values <br/>
+ ALTERNATIVE = TWOSIDED<sup>&#42;&#42;</sup> or GREATER or LESS <br/>
+ CONFLEVEL = confidence level<br/>
+ EQUALVAR = NO<sup>&#42;&#42;</sup> or YES <br/>
+ QQPLOT = YES<sup>&#42;&#42;</sup> or NO<br/>
+ NPERM = number of permutations <br/>
+</p>
+
+<p>/HELP</br>
+STATS TTESTPERM /HELP displays this information and does nothing else.</p>
+
+<p><sup>&#42;</sup> Required<br/>
+<sup>&#42;&#42;</sup> Default</p>
+</div>
+
+
+<pre class="example"><code>
+STATS TTESTPERM VARIABLE1=salary GROUPVAR=gender
+GROUPVALS = "m" "f" QQPLOT=NO.
+</code></pre>
+
+<h2>Details</h2>
+<p><strong>PAIRED</strong> specifies whether to do a two variable (paired) test or a two group test.
+<p><strong>VARIABLE1</strong> specifies the first test variable
+<p><strong>VARIABLE2</strong> specifies the second test variable for a two variable test.
+It is required if PAIRED is YES.
+<p><strong>GROUPVAR</STRONG> specifies the group definition variable for a two group test.
+It is required if PAIRED is NO.
+<p><strong>GROUPVALS</strong> specifies the two group definition values for a two group test.
+It is required if PAIRED is NO.
+Values should be quoted if GROUPVAR is a string variable.
+<p><strong>EQUALVAR</STRONG> specifies whether to assume equal variance for
+the two variable or group distributions.
+<p><strong>NPERM</strong> specifies the number of permutations.  The default is 9999.
+Larger numbers mean greater accuracy but more execution time.
+<p><strong>ALTERNATIVE</strong> specifies whether the alternative hypothesis is
+two sided, the group 1 mean is greater than group 2 or the group 1 mean is less than group 2.
+For the two variable case, "greater" means that the first
+variable mean is greater than the second variable.  For the two group case,
+the group with the smaller mean is considered to be the first.
+<p><strong>CONFLEVEL</strong> specifies the test confidence level and defaults to 0.95.
+<p><strong>QQPLOT</strong> specifies whether to do a Q-Q plot
+of the two distributions or not.  The Q-Q plot is helpful beyond the t test in determining whether the two distributions are
+the same.  If they are identical, the points would form a straight line
+on the diagonal.
+
+<h2>Acknowledgements</h2>
+This procedure uses the R MKinfer package from CRAN.
+<h2>References</h2>
+<p><a href="https://en.wikipedia.org/wiki/Permutation_test">Wikipedia Permutation Tests</a>
+</body>
+<p style="font-size:80%;">
+<p>&copy; Copyright Jon K Peck 2026</p>
+</html>
